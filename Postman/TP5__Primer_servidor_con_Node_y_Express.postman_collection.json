@@ -1,0 +1,81 @@
+{
+	"info": {
+		"_postman_id": "a44bc408-272e-401c-9cfc-c6463e939909",
+		"name": "TP5__Primer_servidor_con_Node_y_Express",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "/",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/hora",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/hora",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"hora"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/fecha-completa",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/fecha-completa",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"fecha-completa"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/err404",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/err404",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"err404"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
